@@ -42,7 +42,13 @@ Assembly accession: GCA_002055965.1
 
 ## Project Status
 
-Raw sequencing data for all six samples have been downloaded. Quality control and downstream analyses are pending.
+- Raw paired-end sequencing data for all six samples have been downloaded from NCBI SRA.
+- Initial quality control was performed using FastQC.
+- Adapter and quality trimming were performed using fastp for all six samples.
+- FastQC reports and fastp HTML and JSON reports have been generated and saved in the results directory.
+- The reference genome and GFF3 annotation for Bacillus subtilis NCIB 3610 (GCA_002055965.1) have been downloaded using NCBI Datasets (version 18.35.0).
+- STAR (version 2.7.11b) has been identified and verified for the next analysis steps.
+- STAR genome indexing, read alignment, read counting, and differential expression analysis are pending.
 
 ## Note
 
